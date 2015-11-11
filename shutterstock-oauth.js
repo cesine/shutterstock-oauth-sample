@@ -68,7 +68,7 @@ var ShutterstockOAuth = (function () {
     _su.endpointForRealm = function (realm) {
       if (realm === "offset") return "https://accounts.offset.com/oauth/authorize";
       else if (realm === "contributor") return "https://contributor-accounts.shutterstock.com/oauth/authorize";
-      else return "https://accounts.shutterstock.com/oauth/authorize";
+      else return "https://api.shutterstock.com/v2/oauth/authorize";
     };
 
     // OAuth Class
